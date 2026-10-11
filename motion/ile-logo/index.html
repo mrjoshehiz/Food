@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ILÉ logo animation</title>
+<script src="assets/gsap.min.js"></script>
+<style>
+@font-face{font-family:Italiana;src:url('assets/italiana-400.ttf')}@font-face{font-family:Manrope;src:url('assets/manrope-500.ttf')}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#fff}#ile-logo{width:100%;height:100%;color:#d92d20;background:#fff;position:relative}.scene-content{width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:12px;gap:4px}.letters{display:flex;align-items:baseline;position:relative;font-family:Italiana,Georgia,serif;font-size:120px;line-height:1;letter-spacing:2px}.letter{display:inline-block}.accent{position:absolute;right:1px;top:-16px;font-size:52px;line-height:1}.caption{font-family:Manrope,Arial,sans-serif;font-size:20px;color:#171717;letter-spacing:3px}.steam{position:absolute;width:35px;height:35px;border:2px solid #d92d20;border-right:0;border-bottom:0;border-radius:50%;opacity:.3;left:19%;top:30%;transform:rotate(30deg)}.steam.second{left:auto;right:19%;top:38%;width:25px;height:25px}.halo{position:absolute;width:174px;height:174px;border-radius:50%;background:#fff1ef;left:calc(50% - 87px);top:calc(50% - 87px);opacity:.3;z-index:0}.letters,.caption{z-index:1}
+@media(max-width:360px){.scene-content{padding:4px;gap:0}.letters{font-size:clamp(42px,26vw,58px)}.accent{font-size:24px;top:-8px}.caption{display:none}.halo{width:72px;height:72px;left:calc(50% - 36px);top:calc(50% - 36px)}.steam{width:15px;height:15px}.steam.second{width:12px;height:12px}}
+</style></head>
+<body><div id="ile-logo" data-composition-id="ile-logo" data-start="0" data-duration="3.2" data-width="640" data-height="240" data-track-index="0"><div class="halo" data-layout-ignore></div><div class="steam" data-layout-ignore></div><div class="steam second" data-layout-ignore></div><div class="scene-content"><div class="letters" aria-label="ILÉ"><span class="letter l-i">I</span><span class="letter l-l">L</span><span class="letter l-e">E</span><span class="accent" aria-hidden="true">´</span></div><div class="caption">NIGERIAN KITCHEN</div></div></div>
+<script>
+window.__timelines=window.__timelines||{};const tl=gsap.timeline({paused:true});
+tl.from('.l-i',{x:-24,opacity:0,duration:.6,ease:'power3.out'},.15).from('.l-l',{y:20,opacity:0,duration:.5,ease:'expo.out'},.25).from('.l-e',{scale:.88,opacity:0,duration:.65,ease:'power2.out'},.35).from('.accent',{y:-18,rotation:-15,opacity:0,duration:.45,ease:'back.out(1.1)'},.75).from('.caption',{y:8,opacity:0,duration:.5,ease:'sine.out'},1).from('.steam',{y:10,opacity:0,stagger:.1,duration:.6,ease:'sine.out'},.2).to('.steam',{y:-10,rotation:40,duration:1.2,ease:'sine.inOut'},1.4).from('.halo',{scale:.8,opacity:0,duration:1,ease:'sine.out'},.15);
+window.__timelines['ile-logo']=tl;
+if(new URLSearchParams(location.search).has('autoplay')){if(matchMedia('(prefers-reduced-motion: reduce)').matches)tl.progress(1);else tl.play(0);}
+</script></body></html>

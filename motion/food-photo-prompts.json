@@ -1,0 +1,50 @@
+[
+  {
+    "prompt": "Authentic Nigerian smoky orange-red tomato party jollof rice, separate long parboiled rice grains, with three skewers of pepper-marinated grilled chicken with charred edges. No peas, carrots, shrimp, or green fried rice.",
+    "asset": "public/photos/jollof.jpg"
+  },
+  {
+    "prompt": "A generous bowl of authentic Nigerian party jollof rice only. Deep orange-red tomato and pepper coated separate long rice grains with gently smoky browned grains; a few soft onion slivers. Absolutely no peas, carrots, meat, chicken, shrimp or fried rice.",
+    "asset": "public/photos/rice.jpg"
+  },
+  {
+    "prompt": "Authentic Nigerian egusi soup, thick coarse pale golden melon-seed curds with dark leafy ugu, palm oil gleam, beef and assorted meat. A separate small dish of smooth bright ivory pounded yam. Not pureed yellow soup and not eba.",
+    "asset": "public/photos/egusi.jpg"
+  },
+  {
+    "prompt": "Authentic Hausa Nigerian beef suya: thin irregular strips of charred grilled beef dusted with rusty brown groundnut yaji spice. White onion rings and fresh red tomato wedges at the side. No bell-pepper kebab chunks.",
+    "asset": "public/photos/suya.jpg"
+  },
+  {
+    "prompt": "Authentic Nigerian zobo, deep ruby burgundy hibiscus drink, in a clear straight tumbler with ice, condensation and a small piece of pineapple beside the glass. No alcohol, no giant fruit cocktail.",
+    "asset": "public/photos/zobo.jpg"
+  },
+  {
+    "prompt": "Authentic Nigerian ofada rice with ayamase: slightly beige mottled short local rice on a banana leaf, beside a small bowl of dark olive-brown oily green-pepper ayamase stew with beef, tripe and a halved boiled egg. Not bright green puree.",
+    "asset": "public/photos/ofada.jpg"
+  },
+  {
+    "prompt": "Authentic Nigerian efo riro: rich cooked dark leafy greens in a red palm oil pepper base with assorted beef pieces, paired with a separate smooth dark brown mound of yam-flour amala. Do not make amala white.",
+    "asset": "public/photos/efo.jpg"
+  },
+  {
+    "prompt": "Nigerian goat meat pepper soup in a shallow ceramic bowl: light brown translucent aromatic broth, irregular bone-in goat pieces, tiny flecks of native spices and a few scent leaves. Not creamy soup or red tomato stew.",
+    "asset": "public/photos/peppersoup.jpg"
+  },
+  {
+    "prompt": "A whole Nigerian grilled croaker fish on an oval ceramic platter, naturally intact fish head tail and fins, scored charred skin with red pepper glaze. Small bowl of pepper sauce and a few golden-brown fried ripe plantain slices. Not salmon or fillets.",
+    "asset": "public/photos/croaker.jpg"
+  },
+  {
+    "prompt": "Nigerian moi moi steamed bean pudding, warm orange-tan colour and dense moist fine bean texture. Two rounded parcels on an unwrapped green banana leaf, one cut open showing a small piece of egg and fish. Not cake, not tofu, not fried fritters.",
+    "asset": "public/photos/moimoi.jpg"
+  },
+  {
+    "prompt": "Nigerian alcohol-free Chapman drink, translucent coral orange-red, clear glass with ice, thin cucumber slices and an orange slice. Real condensation, no brand bottles, no blue cocktail.",
+    "asset": "public/photos/chapman.jpg"
+  },
+  {
+    "prompt": "Nigerian dodo fried ripe plantain: small bowl of diagonal golden amber slices with dark caramelized edges and tender moist yellow centres. No potato fries, no banana chips.",
+    "asset": "public/photos/plantain.jpg"
+  }
+]
