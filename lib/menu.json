@@ -1,0 +1,123 @@
+[
+  {
+    "id": "jollof",
+    "name": "Smoky jollof & chicken",
+    "short": "Smoky jollof",
+    "sub": "With grilled chicken skewers",
+    "price": 8500,
+    "cat": "Rice",
+    "img": "jollof",
+    "description": "Our tomato-rich party jollof, slowly cooked for that smoky finish. Served with pepper-marinated grilled chicken skewers.",
+    "allergens": "Ask our team about ingredient and allergy requirements."
+  },
+  {
+    "id": "rice",
+    "name": "Party jollof rice",
+    "short": "Party jollof rice",
+    "sub": "Tomatoes, peppers & warm spices",
+    "price": 4500,
+    "cat": "Rice",
+    "description": "Long-grain rice cooked in a rich tomato and pepper base. Deep flavour, a smoky finish, and all the comfort of a Nigerian party.",
+    "allergens": "Ask our team about ingredient and allergy requirements.",
+    "img": "rice"
+  },
+  {
+    "id": "egusi",
+    "name": "Egusi & pounded yam",
+    "short": "Egusi & pounded yam",
+    "sub": "Melon-seed soup · assorted meat",
+    "price": 9500,
+    "cat": "Soups",
+    "description": "Rich egusi soup with leafy greens and assorted meat, served with freshly made pounded yam.",
+    "allergens": "Contains fish and shellfish in this sample recipe.",
+    "img": "egusi"
+  },
+  {
+    "id": "suya",
+    "name": "Beef suya",
+    "short": "Beef suya",
+    "sub": "Yaji spice · onions · tomatoes",
+    "price": 6500,
+    "cat": "Grills",
+    "description": "Thinly sliced beef, rubbed with yaji and grilled over an open flame. Served with fresh onions and tomatoes.",
+    "allergens": "Contains groundnuts.",
+    "img": "suya"
+  },
+  {
+    "id": "zobo",
+    "name": "House zobo",
+    "short": "House zobo",
+    "sub": "Hibiscus · ginger · pineapple",
+    "price": 2000,
+    "cat": "Drinks",
+    "description": "A chilled hibiscus infusion with ginger and pineapple. Bright, refreshing and made in-house.",
+    "allergens": "Ask our team about ingredient and allergy requirements.",
+    "img": "zobo"
+  },
+  {
+    "id": "ofada",
+    "name": "Ofada rice & ayamase",
+    "short": "Ofada & ayamase",
+    "sub": "Local rice · green-pepper sauce",
+    "price": 10500,
+    "cat": "Rice",
+    "description": "Fragrant local ofada rice with rich green-pepper ayamase, assorted meat and a boiled egg.",
+    "allergens": "Contains egg. Ask about ingredient requirements.",
+    "img": "ofada"
+  },
+  {
+    "id": "efo",
+    "name": "Efo riro & amala",
+    "short": "Efo riro & amala",
+    "sub": "Leafy greens · pepper · assorted meat",
+    "price": 9000,
+    "cat": "Soups",
+    "description": "Leafy efo riro in a rich pepper base, with assorted meat and soft amala on the side.",
+    "allergens": "Contains fish and shellfish in this sample recipe.",
+    "img": "efo"
+  },
+  {
+    "id": "peppersoup",
+    "name": "Goat meat pepper soup",
+    "short": "Goat meat pepper soup",
+    "sub": "Aromatic broth · Nigerian spices",
+    "price": 7500,
+    "cat": "Soups",
+    "description": "Tender goat meat in a warming broth of Nigerian pepper-soup spices. Comforting, fragrant and full of flavour.",
+    "allergens": "Ask our team about ingredient and allergy requirements.",
+    "img": "peppersoup"
+  },
+  {
+    "id": "croaker",
+    "name": "Grilled croaker",
+    "short": "Grilled croaker",
+    "sub": "Whole fish · pepper sauce · plantain",
+    "price": 18000,
+    "cat": "Grills",
+    "description": "A whole croaker, marinated with peppers and spices, then grilled. Served with pepper sauce and fried plantain.",
+    "allergens": "Contains fish.",
+    "img": "croaker"
+  },
+  {
+    "id": "moimoi",
+    "name": "Moi moi",
+    "short": "Moi moi",
+    "sub": "Steamed bean pudding",
+    "price": 2500,
+    "cat": "Sides",
+    "description": "Soft steamed bean pudding, seasoned with peppers and onions. A familiar companion to your favourite rice.",
+    "allergens": "Contains fish and egg in this sample recipe.",
+    "img": "moimoi"
+  },
+  {
+    "id": "chapman",
+    "name": "House Chapman",
+    "short": "House Chapman",
+    "sub": "Citrus · cucumber · grenadine",
+    "price": 3500,
+    "cat": "Drinks",
+    "description": "Our refreshing alcohol-free Chapman with citrus, cucumber and a splash of grenadine. Served chilled.",
+    "allergens": "Ask our team about ingredient and allergy requirements.",
+    "img": "chapman"
+  }
+]

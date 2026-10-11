@@ -1,0 +1,10 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const source=fs.readFileSync('lib/restaurant-client.js','utf8').split('\n').filter(l=>l.startsWith('const bookingSlots=')||l.startsWith('function availableSlots(')).join('\n');
+const context={Date};vm.createContext(context);vm.runInContext(source,context);
+const slots=(date,now)=>Array.from(vm.runInContext(`availableSlots(${JSON.stringify(date)},Date.parse(${JSON.stringify(now)}))`,context));
+assert.deepEqual(slots('2026-10-09','2026-10-09T21:15:00+01:00'),[]);
+assert.equal(slots('2026-10-09','2026-10-09T18:30:00+01:00')[0],'7:00 PM');
+assert.equal(slots('2026-10-09','2026-10-09T18:29:59+01:00')[0],'6:30 PM');
+assert.equal(slots('2026-10-10','2026-10-09T21:15:00+01:00').length,6);
+assert.deepEqual(slots('2026-10-08','2026-10-09T17:00:00+01:00'),[]);
+console.log('PASS: Lagos booking slots, exact time boundaries, previous dates and next day.');
